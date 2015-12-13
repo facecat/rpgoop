@@ -12,6 +12,7 @@
 		92FEF4B01C1DCBC900F08109 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92FEF4AE1C1DCBC900F08109 /* Main.storyboard */; };
 		92FEF4B21C1DCBC900F08109 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92FEF4B11C1DCBC900F08109 /* Assets.xcassets */; };
 		92FEF4B51C1DCBC900F08109 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92FEF4B31C1DCBC900F08109 /* LaunchScreen.storyboard */; };
+		92FEF4BE1C1DD2FC00F08109 /* Charactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92FEF4BD1C1DD2FC00F08109 /* Charactor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		92FEF4B11C1DCBC900F08109 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92FEF4B41C1DCBC900F08109 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92FEF4B61C1DCBC900F08109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92FEF4BD1C1DD2FC00F08109 /* Charactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Charactor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +41,7 @@
 			isa = PBXGroup;
 			children = (
 				92FEF4A91C1DCBC900F08109 /* rpgoop */,
+				92FEF4BC1C1DD2AB00F08109 /* Support Files */,
 				92FEF4A81C1DCBC800F08109 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,13 +57,22 @@
 		92FEF4A91C1DCBC900F08109 /* rpgoop */ = {
 			isa = PBXGroup;
 			children = (
-				92FEF4AA1C1DCBC900F08109 /* AppDelegate.swift */,
 				92FEF4AC1C1DCBC900F08109 /* ViewController.swift */,
 				92FEF4AE1C1DCBC900F08109 /* Main.storyboard */,
-				92FEF4B11C1DCBC900F08109 /* Assets.xcassets */,
 				92FEF4B31C1DCBC900F08109 /* LaunchScreen.storyboard */,
-				92FEF4B61C1DCBC900F08109 /* Info.plist */,
+				92FEF4BD1C1DD2FC00F08109 /* Charactor.swift */,
 			);
+			path = rpgoop;
+			sourceTree = "<group>";
+		};
+		92FEF4BC1C1DD2AB00F08109 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				92FEF4AA1C1DCBC900F08109 /* AppDelegate.swift */,
+				92FEF4B61C1DCBC900F08109 /* Info.plist */,
+				92FEF4B11C1DCBC900F08109 /* Assets.xcassets */,
+			);
+			name = "Support Files";
 			path = rpgoop;
 			sourceTree = "<group>";
 		};
@@ -137,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92FEF4AD1C1DCBC900F08109 /* ViewController.swift in Sources */,
+				92FEF4BE1C1DD2FC00F08109 /* Charactor.swift in Sources */,
 				92FEF4AB1C1DCBC900F08109 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +298,7 @@
 				92FEF4BB1C1DCBC900F08109 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
